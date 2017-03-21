@@ -68,6 +68,15 @@ header h2{font-size:4em; text-align:center;}
 
 /**------------------------------------------------------------------------------------**/
 
+.page-wrapper:not(#zen-intro){
+}
+
+
+div[role="article"]
+{
+
+
+}
 /**---------------------------------------------------------------------------------------- **/
 
 .reqarticle{
@@ -110,11 +119,40 @@ h3{
 
 }
 
+.main [role="article"]
+{
+  padding-bottom:5em;
+}
+.explanation
+{
+  font-family: 'Press Start 2P', cursive;
+  background:url("http://more-sky.com/data/out/12/IMG_544269.png") center;
+  padding:5em;
+  background-origin:border-box;
+  background-size:100% 100%;
+  margin-bottom:2em;
+  display:flex;
+  flex-flow:row wrap;
+}
+.explanation p
+{
+  background:rgba(255,255,0, 0.8);
+  color:purple;
+}
+.ArticleImage
+{
+  padding-right:1em;
+
+}
 .participation
 {
   background:url("http://gamingtrend.com/wp-content/screenshots/persona-4-golden-vita/Persona%204%20Gold%20-%202.jpg")
 }
 
+.participation:nth-child(even)
+{
+  color:white;
+}
 .participation p
 {
   background:url("https://lh3.googleusercontent.com/-mVPndEw-Ouw/WNBYzsd49jI/AAAAAAAAAi8/_niZVGbMGKIj0g8y2ut3Z2c_uHWhzWxHwCL0B/w530-d-h128-p-rw/personabox.png") center no-repeat;
@@ -143,6 +181,7 @@ footer{
   background:deepskyblue;
   flex-flow:row wrap;
   justify-content:space-around;
+
 }
 footer a{
   text-decoration:none;
@@ -157,6 +196,53 @@ footer a:hover{
   background-color:gold;
 }
 
+ul
+{
+  list-style:none;
+}
+
+.wrapper
+{
+  display:flex;
+  flex-flow:column wrap;
+  padding:1em;
+}
+
+.wrapper a
+{
+  text-decoration:none;
+  color:lawngreen;
+}
+
+.wrapper a:hover
+{
+  color:hotpink;
+}
+.select, .design-archives
+{
+  font-family: 'Press Start 2P', cursive;
+}
+nav, .zen-resources
+{
+  display:flex;
+  flex-flow:column nowrap;
+  font-family: 'Press Start 2P', cursive;
+  padding-bottom:5em;
+}
+
+nav li, .zen-resources li
+{
+  display:flex;
+  flex-flow:column nowrap;
+  padding:3em;
+  line-height:2em;
+  background:black;
+  border-style:double;
+  border-width:5px;
+  border-color:blue;
+  color:white;
+  width:25%;
+}
 
 /**Media Queries**/
 @media(max-width:1200px)
@@ -167,8 +253,10 @@ footer a:hover{
     line-height:3em;
 
   }
-
-
+  nav li, .zen-resources li
+  {
+    width:50%;
+  }
 }
 
 @media(max-width:800px)
@@ -182,28 +270,6 @@ footer a:hover{
   {
     display:flex;
     flex-flow:row wrap;
-  }
-  .supporting
-  {
-    display:flex;
-    flex-flow:column wrap;
-    margin:0;
-    width:100%;
-  }
-  .participation p{
-    display:flex;
-    flex-flow:row wrap;
-  }
 
-.requirements
-{
-  margin:0;
-}
-  .participation{
-    margin:0;
-    width:100%;
-    padding:5em;
   }
-
-
 }
