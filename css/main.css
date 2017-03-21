@@ -186,7 +186,7 @@ footer a:hover{
   .supporting
   {
     display:flex;
-    flex-flow:row wrap;
+    flex-flow:column wrap;
     margin:0;
     width:100%;
   }
@@ -202,9 +202,8 @@ footer a:hover{
   .participation{
     margin:0;
     width:100%;
+    padding:5em;
   }
-  .supporting p{
-    padding:3em;
-  }
+
 
 }
