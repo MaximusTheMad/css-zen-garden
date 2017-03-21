@@ -68,15 +68,6 @@ header h2{font-size:4em; text-align:center;}
 
 /**------------------------------------------------------------------------------------**/
 
-.page-wrapper:not(#zen-intro){
-}
-
-
-div[role="article"]
-{
-
-
-}
 /**---------------------------------------------------------------------------------------- **/
 
 .reqarticle{
@@ -124,10 +115,6 @@ h3{
   background:url("http://gamingtrend.com/wp-content/screenshots/persona-4-golden-vita/Persona%204%20Gold%20-%202.jpg")
 }
 
-.participation:nth-child(even)
-{
-  color:white;
-}
 .participation p
 {
   background:url("https://lh3.googleusercontent.com/-mVPndEw-Ouw/WNBYzsd49jI/AAAAAAAAAi8/_niZVGbMGKIj0g8y2ut3Z2c_uHWhzWxHwCL0B/w530-d-h128-p-rw/personabox.png") center no-repeat;
@@ -198,8 +185,15 @@ footer a:hover{
   }
   .supporting
   {
+    display:flex;
+    flex-flow:column wrap;
+  }
+  .participation p{
+    display:flex;
     flex-flow:row wrap;
   }
+
+  .
   .supporting p{
     padding:3em;
   }
