@@ -187,13 +187,20 @@ footer a:hover{
   {
     display:flex;
     flex-flow:row wrap;
+    margin:0;
   }
   .participation p{
     display:flex;
     flex-flow:row wrap;
   }
 
-  .
+.requirements
+{
+  margin:0;
+}
+  .participation{
+    margin:0;
+  }
   .supporting p{
     padding:3em;
   }
