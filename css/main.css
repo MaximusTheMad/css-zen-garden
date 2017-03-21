@@ -1,0 +1,199 @@
+
+a:hover
+{
+    color:hotpink;
+  text-decoration:none;
+}
+p{font-size:1.5em;}
+/** HEADING RULES**/
+#zen-intro{font-family: 'Press Start 2P', cursive;
+    color:white;
+  background-image:url("https://images.alphacoders.com/235/235961.png");
+  background-size:100%;
+  background-origin:border-box;
+  padding-top:150px;
+  padding-bottom:150px;
+  display:flex;
+  text-align:center;
+  flex-flow:column wrap;
+  justify-content:space-betwwen;
+  border-radius:1px;
+  border-style:solid;
+  border-color:red;
+}
+
+
+header h2
+{
+  margin-top:100px;
+  color:lime;
+}
+.preamble, .summary
+{
+  display:block;
+  border-style:dotted;
+  margin-bottom:100px;
+  background:black;
+  color:white;
+  word-wrap:normal;
+  width:50%;
+   margin:auto;
+}
+
+.intro a
+{
+  color:lime;
+
+}
+.intro
+
+#zen-preamble
+{
+
+}
+#zen-preamble p:nth-child(even){
+  color:lime;
+}
+header h1{font-size:6em; text-align:center;}
+header h2{font-size:4em; text-align:center;}
+
+.preamble h3
+{
+  font-size:3em;
+}
+.partcipation{
+  font-family: 'Sigmar One', cursive;
+}
+
+
+/**------------------------------------------------------------------------------------**/
+
+.page-wrapper:not(#zen-intro){
+}
+
+
+div[role="article"]
+{
+
+
+}
+/**---------------------------------------------------------------------------------------- **/
+
+.reqarticle{
+ background: url("http://pre08.deviantart.net/582b/th/pre/i/2012/231/4/3/fight___mann_vs__machine___sfm_by_squar3x-d5bmxkf.jpg");
+  font-family: 'Sigmar One', cursive;
+  background-size:cover;
+  color:black;
+  padding:20px;
+}
+
+.requirements h3{
+   background-image:url("https://wiki.teamfortress.com/w/images/c/c0/Kingofthehill_2560x1024.png?t=20111126134055");
+  background-size:contain;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin:auto;
+  font-family: 'Sigmar One', cursive;
+
+}
+
+h3{
+  font-size:48px;
+}
+
+.requirements p{
+  background:rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+/**Supporting information**/
+.supporting:not(footer){
+  display:flex;
+  justify-content:space-between;
+  align-content:space-between;
+  padding:100px;
+  margin:auto;
+  flex-flow:row wrap;
+
+}
+
+.participation
+{
+  background:url("http://gamingtrend.com/wp-content/screenshots/persona-4-golden-vita/Persona%204%20Gold%20-%202.jpg")
+}
+
+.participation:nth-child(even)
+{
+  color:white;
+}
+.participation p
+{
+  background:url("https://lh3.googleusercontent.com/-mVPndEw-Ouw/WNBYzsd49jI/AAAAAAAAAi8/_niZVGbMGKIj0g8y2ut3Z2c_uHWhzWxHwCL0B/w530-d-h128-p-rw/personabox.png") center no-repeat;
+  background-origin:border-box;
+  background-size:100% 100%;
+  padding:3em;
+  line-height:2em;
+  margin:auto;
+  color:white;
+}
+.participation h3
+{
+  background:url("http://gamingtrend.com/wp-content/screenshots/persona-4-golden-vita/Persona%204%20Gold%20-%202.jpg");
+  color:white;
+  padding-bottom:3em;
+  background-size:contain;
+  text-shadow: 2px 2px #000;
+}
+
+/**Footer**/
+
+footer{
+
+  list-style:none;
+  display:flex;
+  background:deepskyblue;
+  flex-flow:row wrap;
+  justify-content:space-around;
+}
+footer a{
+  text-decoration:none;
+  color:white;
+  padding:1em;
+  display:block;
+  font-family: 'Press Start 2P', cursive;
+}
+
+footer a:hover{
+  color:black;
+  background-color:gold;
+}
+
+
+/**Media Queries**/
+@media(max-width:1200px)
+{
+  .preamble, .summary
+  {
+    width:75%;
+    line-height:3em;
+
+  }
+
+}
+
+@media(max-width:800px)
+{
+  .preamble h3
+  {
+    font-size:2.5em;
+
+  }
+  .requirements p
+  {
+    display:flex;
+    flex-flow:row wrap;
+
+  }
+}
